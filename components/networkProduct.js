@@ -40,7 +40,10 @@ const NetworkProduct = () => {
             //     </div>
             //   </div>
             // </div>
-            <div className="card sm:card-side backdrop-blur bg-base-100 mt-5 lg:mt-0 bg-opacity-70">
+            <div
+              key={index}
+              className="card sm:card-side backdrop-blur bg-base-100 mt-5 lg:mt-0 bg-opacity-70"
+            >
               <figure className="px-5 py-4">
                 <img className="w-40" src={res.image} alt="Movie" />
               </figure>

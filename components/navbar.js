@@ -1,74 +1,3 @@
-// import React from "react";
-
-// const Navbar = () => {
-//   return (
-// <div>
-//   <div className="navbar bg-base-100">
-//     <div className="sm:container sm:mx-auto sm:px-44 ">
-//       <div className="flex-1 hidden sm:block">
-//         <div className="rounded-full ">
-//           <img className="w-8" src="/images/Selendralogo.png" />
-//         </div>
-//       </div>
-//       <div className="flex-none">
-//         <div className="hidden sm:block">
-//           <ul className=" menu menu-horizontal p-0">
-//             <li>
-//               <a>Docs</a>
-//             </li>
-//             <li>
-//               <a>WhitePaper</a>
-//             </li>
-//             <li>
-//               <a>
-//                 <img width={30} src="/images/github-svgrepo-com.svg" />
-//               </a>
-//             </li>
-//           </ul>
-//         </div>
-//         <div className="sm:hidden block navbar-end">
-//           <div className="dropdown">
-//             <label tabindex="0" className="btn btn-ghost btn-circle">
-//               <svg
-//                 xmlns="http://www.w3.org/2000/svg"
-//                 className="h-5 w-5"
-//                 fill="none"
-//                 viewBox="0 0 24 24"
-//                 stroke="currentColor"
-//               >
-//                 <path
-//                   stroke-linecap="round"
-//                   stroke-linejoin="round"
-//                   stroke-width="2"
-//                   d="M4 6h16M4 12h16M4 18h7"
-//                 />
-//               </svg>
-//             </label>
-//             <ul
-//               tabindex="0"
-//               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-//             >
-//               <li>
-//                 <a>Doc</a>
-//               </li>
-//               <li>
-//                 <a>WhitePaper</a>
-//               </li>
-//               <li>
-//                 <a>Github</a>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// </div>
-//   );
-// };
-
-// export default Navbar;
-
 import React from "react";
 
 const Navbar = () => {
@@ -149,7 +78,7 @@ const Navbar = () => {
               </div>
               <div className="sm:hidden block navbar-end">
                 <div className="dropdown">
-                  <label tabindex="0" className="btn btn-ghost btn-circle">
+                  <label tabIndex="0" className="btn btn-ghost btn-circle">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
@@ -158,15 +87,15 @@ const Navbar = () => {
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M4 6h16M4 12h16M4 18h7"
                       />
                     </svg>
                   </label>
                   <ul
-                    tabindex="0"
+                    tabIndex="0"
                     className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                   >
                     <li>
