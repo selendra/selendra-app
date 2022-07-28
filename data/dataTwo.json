@@ -2,7 +2,7 @@
   {
     "image": "/images/bitriel-logo-v2.png",
     "name": "Bitriel Wallets",
-    "link": "",
+    "link": "https://play.google.com/store/apps/details?id=com.selendra.secure_wallet&hl=en&gl=US",
     "des": "The standard chunk of Lorem Ipsum used since the 1500s"
   },
   {
@@ -12,15 +12,9 @@
     "des": "The standard chunk of Lorem Ipsum used since the 1500s"
   },
   {
-    "image": "/images/sala-logo-black.png",
-    "name": "Saladigital",
-    "link": "",
-    "des": "The standard chunk of Lorem Ipsum used since the 1500s"
-  },
-  {
-    "image": "/images/idd.png",
-    "name": "Digital Identity",
-    "link": "",
+    "image": "/images/faucet.png",
+    "name": "Faucet",
+    "link": "https://faucet.selendra.org/testnet",
     "des": "The standard chunk of Lorem Ipsum used since the 1500s"
   }
 ]

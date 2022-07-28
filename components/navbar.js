@@ -67,10 +67,10 @@ const Navbar = () => {
                     <a>Docs</a>
                   </li>
                   <li>
-                    <a>WhitePaper</a>
+                    <a>Whitepaper</a>
                   </li>
                   <li>
-                    <a>
+                    <a href="https://github.com/selendra" target="_blank">
                       <img width={30} src="/images/github-svgrepo-com.svg" />
                     </a>
                   </li>

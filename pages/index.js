@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import NetworkProduct from "../components/networkProduct";
+import Partner from "../components/partner";
 import WalletProduct from "../components/walletProduct";
 
 const Index = () => {
@@ -16,6 +17,7 @@ const Index = () => {
         >
           <NetworkProduct />
           <WalletProduct />
+          <Partner />
         </div>
       </div>
     </div>
