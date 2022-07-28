@@ -1,26 +1,38 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-  box-sizing: border-box;
+.background-img {
+  background-image: url(/images/earth.png);
+  width: 100% !important;
+  height: 900px !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 300px;
+  left: 0px !important;
 }
+/* .background-img1 {
+  background-image: url(/images/sbu.png);
+  width: 100% !important;
+  height: 900px !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 1300px;
+  left: 0px !important;
+} */
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.glassss {
+  background: rgba(7, 105, 197, 0.06);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  height: 100% !important;
+  width: 100% !important;
+  /* z-index: 100; */
 }
