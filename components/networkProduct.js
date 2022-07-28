@@ -11,20 +11,21 @@ const NetworkProduct = () => {
           as public good for the benefit of the ecosystem
         </p>
       </center>
-      <div className="lg:grid lg:grid-cols-1 gap-7 mt-16 px-2 lg:px-48 py-10">
+      <div className="lg:grid lg:grid-cols-1 gap-7  px-2 lg:px-48 py-10">
         {dataOne.map((res, index) => {
           return (
-            <a href={res.link} rel="noreferrer" target="_blank">
-              <div
-                key={index}
-                className="card lg:card-side backdrop-blur bg-base-100 mt-5 lg:mt-0 bg-opacity-70"
-              >
+            <a key={index} href={res.link} rel="noreferrer" target="_blank">
+              <div className="card lg:card-side backdrop-blur bg-base-100 mt-9 md:mt-5 bg-opacity-70">
                 <figure className="px-5 py-3">
                   <img className="w-40" src={res.image} alt="Movie" />
                 </figure>
                 <div className="card-body leading-3">
-                  <h2 className="card-title text-6xl py-4">{res.name}</h2>
-                  <p className="text-xl text-gray-500 ">{res.des}</p>
+                  <h2 className="font-bold text-3xl md:text-6xl py-4 text-center lg:text-left">
+                    {res.name}
+                  </h2>
+                  <p className="text-xl text-gray-500 text-center lg:text-left">
+                    {res.des}
+                  </p>
                 </div>
               </div>
             </a>

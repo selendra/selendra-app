@@ -35,7 +35,13 @@ const Navbar = () => {
                     <a>WhitePaper</a>
                   </li>
                   <li>
-                    <a>Github</a>
+                    <a
+                      href="https://github.com/selendra "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Github
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -70,7 +76,11 @@ const Navbar = () => {
                     <a>Whitepaper</a>
                   </li>
                   <li>
-                    <a href="https://github.com/selendra" target="_blank">
+                    <a
+                      href="https://github.com/selendra "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img width={30} src="/images/github-svgrepo-com.svg" />
                     </a>
                   </li>
@@ -105,7 +115,13 @@ const Navbar = () => {
                       <a>WhitePaper</a>
                     </li>
                     <li>
-                      <a>Github</a>
+                      <a
+                        href="https://github.com/selendra "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Github
+                      </a>
                     </li>
                   </ul>
                 </div>
