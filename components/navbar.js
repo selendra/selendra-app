@@ -28,12 +28,12 @@ const Navbar = () => {
                   tabIndex={0}
                   className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                 >
-                  <li>
+                  {/* <li>
                     <a>Doc</a>
                   </li>
                   <li>
                     <a>WhitePaper</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="https://github.com/selendra "
@@ -69,12 +69,12 @@ const Navbar = () => {
             <div className="flex-none">
               <div className="hidden sm:block">
                 <ul className=" menu menu-horizontal p-0">
-                  <li>
+                  {/* <li>
                     <a>Docs</a>
                   </li>
                   <li>
                     <a>Whitepaper</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="https://github.com/selendra "
@@ -108,12 +108,12 @@ const Navbar = () => {
                     tabIndex="0"
                     className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                   >
-                    <li>
+                    {/* <li>
                       <a>Doc</a>
                     </li>
                     <li>
                       <a>WhitePaper</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="https://github.com/selendra "

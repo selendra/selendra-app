@@ -10,8 +10,7 @@ const Ecosystem = () => {
             Ecosystem
           </h1>
           <p className="lg:px-0 px-10 mt-6 md:text-3xl text-md">
-            We are backing up every block across the Polkadot and Kusama
-            Networks as public good for the benefit of the ecosystem
+            Community DApplications and Tools
           </p>
         </center>
 

@@ -3,12 +3,12 @@
     "image": "/images/sala-logo-black.png",
     "name": "Saladigital",
     "link": "https://saladigital.org/",
-    "des": "The standard chunk of Lorem Ipsum used since the 1500s"
+    "des": "A digital schools featuring learn-to-earn and blockchain powered incentivize system. At initial stage focusing in the Cambodia market."
   },
   {
     "image": "/images/idd.png",
     "name": "Digital Identity",
-    "link": "",
-    "des": "The standard chunk of Lorem Ipsum used since the 1500s"
+    "link": "https://id.kumandra.org",
+    "des": "A pilot application build on top of Selendra to tackle digital identity, digital assets storage and transfer and NFTs. It will suppot crosschain application."
   }
 ]
