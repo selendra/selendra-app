@@ -1,7 +1,7 @@
 import React from "react";
-import dataTwo from "../data/dataTwo.json";
+import app_and_wallet from "../data/app_and_wallet.json";
 
-const WalletProduct = () => {
+const AppAndWallet = () => {
   return (
     <div className="mt-16">
       <center>
@@ -15,7 +15,7 @@ const WalletProduct = () => {
       </center>
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-2 mt-16">
-        {dataTwo.map((res, index) => {
+        {app_and_wallet.map((res, index) => {
           return (
             <a key={res.index} rel="noreferrer" target="_blank" href={res.link}>
               <div className="card  lg:w-96 backdrop-blur bg-base-100  mt-5 md:mt-5 bg-opacity-70 ">
@@ -39,4 +39,4 @@ const WalletProduct = () => {
   );
 };
 
-export default WalletProduct;
+export default AppAndWallet;

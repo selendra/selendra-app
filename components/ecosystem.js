@@ -1,10 +1,10 @@
 import React from "react";
-import dataThree from "../data/dataThree.json";
+import ecosystem from "../data/ecosystem.json";
 
-const Partner = () => {
+const Ecosystem = () => {
   return (
     <div>
-      <div className="">
+      <div>
         <center>
           <h1 className="sm:text-7xl text-4xl font-extrabold lg:px-0 px-10 mt-16">
             Ecosystem
@@ -16,7 +16,7 @@ const Partner = () => {
         </center>
 
         <div className="grid md:grid-cols-2 md gap-2 mt-16 px-2 lg:px-48  pb-10">
-          {dataThree.map((res, index) => {
+          {ecosystem.map((res, index) => {
             return (
               <a
                 key={res.index}
@@ -50,4 +50,4 @@ const Partner = () => {
   );
 };
 
-export default Partner;
+export default Ecosystem;

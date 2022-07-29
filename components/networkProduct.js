@@ -1,9 +1,9 @@
 import React from "react";
-import dataOne from "../data/dataOne.json";
+import networkProduct from "../data/networkProduct.json";
 
 const NetworkProduct = () => {
   return (
-    <div className="">
+    <div>
       <center>
         <h1 className="md:text-7xl text-4xl font-extrabold">Networks</h1>
         <p className="lg:px-0 px-10 mt-6 md:text-3xl text-md">
@@ -12,7 +12,7 @@ const NetworkProduct = () => {
         </p>
       </center>
       <div className="lg:grid lg:grid-cols-1 gap-7  px-2 lg:px-48 py-10">
-        {dataOne.map((res, index) => {
+        {networkProduct.map((res, index) => {
           return (
             <a key={index} href={res.link} rel="noreferrer" target="_blank">
               <div className="card lg:card-side backdrop-blur bg-base-100 mt-9 md:mt-5 bg-opacity-70">
