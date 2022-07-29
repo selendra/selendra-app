@@ -17,17 +17,23 @@ const wallet = () => {
         {dapps.map((res, index) => {
           return (
             <a key={res.index} rel="noreferrer" target="_blank" href={res.link}>
-              <div className="card backdrop-blur bg-base-100  mt-5 md:mt-1 bg-opacity-70 ">
-                <figure className="px-10 pt-10">
-                  <img
-                    src={res.image}
-                    alt="Shoes"
-                    className="rounded-xl h-20"
-                  />
-                </figure>
-                <div className="card-body">
-                  <h2 className="text-2xl font-bold text-center">{res.name}</h2>
-                  <p className="text-center text-xl text-gray-500">{res.des}</p>
+              <div className="bg-blue-500 rounded-2xl bg-gradient-to-r from-cyan-400 to-blue-400 h-full ">
+                <div className="card backdrop-blur bg-base-100 bg-opacity-80  ">
+                  <figure className="px-10 pt-10">
+                    <img
+                      src={res.image}
+                      alt="Shoes"
+                      className="rounded-xl h-20"
+                    />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="text-2xl font-bold text-center">
+                      {res.name}
+                    </h2>
+                    <p className="text-center text-xl text-gray-500">
+                      {res.des}
+                    </p>
+                  </div>
                 </div>
               </div>
             </a>
