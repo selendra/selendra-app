@@ -14,7 +14,7 @@ const Index = () => {
       <div className="glassss">
         <div
           // className="px-4 md:container md:mx-auto md:px-28 sm:px-6 lg:px-28"
-          className="lg:container lg:mx-auto lg:px-44 px-4 py-8"
+          className="lg:container lg:mx-auto xl:px-44 px-0 py-8"
         >
           <Networks />
           <Wallet />

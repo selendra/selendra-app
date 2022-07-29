@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="sm:hidden block">
-        <div className="sm:container sm:mx-auto sm:px-44 ">
+        <div className="sm:container sm:mx-auto sm:px-44 px-8">
           <div className="navbar bg-base-100">
             <div className="navbar-start">
               <div className="dropdown">
@@ -60,7 +60,7 @@ const Navbar = () => {
       {/* ==============Desktop show ============== */}
       <div className="hidden sm:block">
         <div className="navbar bg-base-100">
-          <div className="sm:container sm:mx-auto sm:px-44 ">
+          <div className="sm:container sm:mx-auto xl:px-44 px-0 ">
             <div className="flex-1 hidden sm:block">
               <div className="rounded-full ">
                 <img className="w-8" src="/images/Selendralogo.png" />
