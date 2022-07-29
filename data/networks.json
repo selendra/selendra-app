@@ -1,0 +1,14 @@
+[
+  {
+    "image": "/images/bluecoin.png",
+    "name": "Mainnet",
+    "link": "https://mainnet.selendra.org",
+    "des": "Develop, deploy DApps, govern the network, stake, earn, send, recieve, all of that takes place on this network. SEL token on this network has some intrinsic value and utilities as mentioned, and it is valued by those who are willing to pay for it."
+  },
+  {
+    "image": "/images/yellowcoin.png",
+    "name": "Testnet",
+    "link": "https://testnet.selendra.org",
+    "des": "Learn blockchain worry-free from losing tokens. Everything here works same as mainnet. Sometime slightly more up-to-date before release to the mainnet. SEL tokens here has no real world value, except it is for learning and testing on this network."
+  }
+]

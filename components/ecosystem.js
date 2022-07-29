@@ -1,5 +1,5 @@
 import React from "react";
-import dataThree from "../data/dataThree.json";
+import ecosystem from "../data/ecosystem.json";
 
 const Partner = () => {
   return (
@@ -10,13 +10,12 @@ const Partner = () => {
             Ecosystem
           </h1>
           <p className="lg:px-0 px-10 mt-6 md:text-3xl text-md">
-            We are backing up every block across the Polkadot and Kusama
-            Networks as public good for the benefit of the ecosystem
+            Community DApplications and Tools
           </p>
         </center>
 
         <div className="grid md:grid-cols-2 md gap-2 mt-16 px-2 lg:px-48  pb-10">
-          {dataThree.map((res, index) => {
+          {ecosystem.map((res, index) => {
             return (
               <a
                 key={res.index}

@@ -1,9 +1,9 @@
 import React from "react";
-import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import NetworkProduct from "../components/networkProduct";
-import Partner from "../components/partner";
-import WalletProduct from "../components/walletProduct";
+import Networks from "../components/networks";
+import Wallet from "../components/wallet";
+import Ecosystem from "../components/ecosystem";
+import Footer from "../components/footer";
 
 const Index = () => {
   return (
@@ -16,9 +16,9 @@ const Index = () => {
           // className="px-4 md:container md:mx-auto md:px-28 sm:px-6 lg:px-28"
           className="lg:container lg:mx-auto lg:px-44 px-4 py-8"
         >
-          <NetworkProduct />
-          <WalletProduct />
-          <Partner />
+          <Networks />
+          <Wallet />
+          <Ecosystem />
         </div>
       </div>
       <Footer />

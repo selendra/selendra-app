@@ -1,21 +1,20 @@
 import React from "react";
-import dataTwo from "../data/dataTwo.json";
+import dapps from "../data/dapps.json";
 
-const WalletProduct = () => {
+const wallet = () => {
   return (
     <div className="mt-16">
       <center>
         <h1 className="sm:text-7xl text-4xl font-extrabold">
-          Apps and Wallets
+          Apps
         </h1>
         <p className="lg:px-0 px-10 mt-6 md:text-3xl text-md">
-          We are backing up every block across the Polkadot and Kusama Networks
-          as public good for the benefit of the ecosystem
+         Tools for navigating Selendra Networks. 
         </p>
       </center>
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-2 mt-16">
-        {dataTwo.map((res, index) => {
+        {dapps.map((res, index) => {
           return (
             <a key={res.index} rel="noreferrer" target="_blank" href={res.link}>
               <div className="card  lg:w-96 backdrop-blur bg-base-100  mt-5 md:mt-5 bg-opacity-70 ">
@@ -39,4 +38,4 @@ const WalletProduct = () => {
   );
 };
 
-export default WalletProduct;
+export default wallet;
