@@ -3,12 +3,12 @@ import dapps from "../data/dapps.json";
 
 const wallet = () => {
   return (
-    <div className="lg:h-[82vh] lg:flex lg:place-content-center lg:flex-col space-y-24">
+    <div className="lg:h-[75vh] lg:flex lg:place-content-center lg:flex-col space-y-24 mt-16 sm:mt-0">
       <center>
-        <h1 className="md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 text-center">
+        <h1 className="md:mt-28 mt-16 sm:mb-0 md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 text-center">
           Apps
         </h1>
-        <p className="lg:px-0 px-10 mt-6 md:text-2xl py-8 text-md w-2/3">
+        <p className="lg:px-0 px-10 sm:mt-6 md:text-2xl py-8 text-md w-2/3">
           Tools for navigating Selendra Networks.
         </p>
       </center>
@@ -18,7 +18,7 @@ const wallet = () => {
           return (
             <a key={res.index} rel="noreferrer" target="_blank" href={res.link}>
               <div className="bg-blue-500 rounded-2xl bg-gradient-to-r from-cyan-400 to-blue-400 h-full ">
-                <div className="card backdrop-blur bg-base-100 bg-opacity-80  ">
+                <div className="card backdrop-blur bg-base-100 bg-opacity-80 h-full ">
                   <figure className="px-10 pt-10">
                     <img
                       src={res.image}
@@ -30,7 +30,7 @@ const wallet = () => {
                     <h2 className="text-2xl font-bold text-center">
                       {res.name}
                     </h2>
-                    <p className="text-center text-xl text-gray-500">
+                    <p className="text-center text-xl text-gray-600">
                       {res.des}
                     </p>
                   </div>

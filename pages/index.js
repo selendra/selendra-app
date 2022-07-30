@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import Networks from "../components/networks";
-import Wallet from "../components/wallet";
+import Dapp from "../components/dapp";
 import Ecosystem from "../components/ecosystem";
 import Footer from "../components/footer";
+import Commingsoon from "../components/comming-soon";
 
 const Index = () => {
   return (
@@ -17,8 +18,9 @@ const Index = () => {
           className="lg:container lg:mx-auto xl:px-44 px-0 py-8"
         >
           <Networks />
-          <Wallet />
+          <Dapp />
           <Ecosystem />
+          <Commingsoon />
         </div>
       </div>
       <Footer />
