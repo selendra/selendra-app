@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import Head from "next/head";
 
-function MyApp({ Component, pageProps }) {
+function SelendraApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
@@ -12,4 +12,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default SelendraApp;

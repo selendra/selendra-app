@@ -3,18 +3,29 @@
     "image": "/images/bitriel-logo-v2.png",
     "name": "Bitriel Wallets",
     "link": "https://play.google.com/store/apps/details?id=com.selendra.secure_wallet&hl=en&gl=US",
-    "des": "A self-custodian multi-assets mobile wallet, staking portal and decentralized exchange"
+    "des": "A self-custodian multi-assets digital wallet for storing and staking assets, and decentralized exchange"
   },
   {
     "image": "/images/stacking.png",
     "name": "Selendra Staking",
     "link": "https://mainnet.selendra.org/#/staking/actions",
-    "des": "Stake your idle token to help secure the network and get reward in SEL tokens"
+    "des": "Developers' friendly staking UI."
+  },
+  {
+    "image": "/images/koompi-fifi-bg.png",
+    "name": "KOOMPI FiFi",
+    "link": "https://www.koompi.com/projects/koompi-fi-fi",
+    "des": "School campuses and rural villages Wi-Fi Hotspot services paid in SEL token & Stablecoins"
   },
   {
     "image": "/images/faucet.png",
     "name": "Tokens Faucet",
     "link": "https://faucet.selendra.org/testnet",
     "des": "Request SEL token for development and testing purposes"
+  },
+  {
+    "image": "/images/bitriel-logo-v2.png",
+    "name": "Staking on Bitriel",
+    "des": "Users' friendly staking and UI. Coming soon!"
   }
 ]

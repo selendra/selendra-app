@@ -1,7 +1,7 @@
 [
   {
-    "image": "/images/exchange.png",
-    "name": "DEX",
+    "image": "/images/stable.png",
+    "name": "Stablecoins",
     "des": "Coming Soon"
   },
   {
@@ -10,8 +10,8 @@
     "des": "Coming Soon"
   },
   {
-    "image": "/images/stable.png",
-    "name": "Stablecoins",
+    "image": "/images/exchange.png",
+    "name": "DEX",
     "des": "Coming Soon"
   }
 ]

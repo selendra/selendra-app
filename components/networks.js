@@ -6,7 +6,7 @@ const network = () => {
     <div className="lg:h-[75vh] lg:flex lg:place-content-center lg:flex-col sm:mt-12 ">
       <center>
         <h1
-          className="md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 text-center"
+          className="md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-center"
           // className="md:text-7xl text-4xl font-extrabold "
         >
           Networks
@@ -15,9 +15,7 @@ const network = () => {
           className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4 lg:w-2/3"
           // className="lg:px-0 px-2  md:text-4xl py-8 sm:text-md text-xl md:w-2/3 text-gray-600"
         >
-          Selendra Mainnet and Testnet is now lived. More interesting features
-          of the mainchain will be added as we progress. Find out what&apos;s in
-          store below.
+          Selendra Mainnet and Testnet is now lived. More useful and interesting features will be added as we progress. Feel free to look around!
         </p>
         {/* <p className="lg:px-0 px-10  md:text-2xl text-md">
           Stablecoins and Decentralized Finance are also coming on <br />

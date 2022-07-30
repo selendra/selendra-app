@@ -3,12 +3,12 @@
     "image": "/images/sala-logo-black.png",
     "name": "Saladigital",
     "link": "https://saladigital.org/",
-    "des": "A digital schools featuring learn-to-earn and blockchain powered incentivize system. At initial stage focusing in the Cambodia market."
+    "des": "A digital schools featuring blockchain powered incentivize system Learn-to-Earn. Cambodia schools, students, and teachers are initial user-base."
   },
   {
     "image": "/images/idd.png",
     "name": "Digital Identity",
     "link": "https://id.kumandra.org",
-    "des": "A pilot application build on top of Selendra to tackle digital identity, digital assets storage and transfer and NFTs. It will suppot crosschain application."
+    "des": "A pilot application build on top of Selendra to tackle digital identity, digital assets ownership and transfer, and NFTs. It will suppot crosschain application."
   }
 ]
