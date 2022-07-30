@@ -18,6 +18,16 @@ const Index = () => {
           className="lg:container lg:mx-auto xl:px-44 px-0 py-8"
         >
           <Networks />
+          <center>
+            <p
+              className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4 lg:w-2/3 mb-9"
+              // className="lg:px-0 px-2 md:text-2xl py-8 md:text-md text-xl md:w-2/3 text-gray-700 text-center mb-20"
+            >
+              We are also working with students, universities, community
+              developers to share blockchain education and develop more useful
+              use-cases for general users and the whole ecosystem.
+            </p>
+          </center>
           <Dapp />
           <Ecosystem />
           <Commingsoon />

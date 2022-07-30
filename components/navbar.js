@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <div>
       <div className="sm:hidden block">
-        <div className="sm:container sm:mx-auto sm:px-44 px-8">
+        <div className="sm:container sm:mx-auto sm:px-44">
           <div className="navbar bg-base-100">
             <div className="navbar-start">
-              <div className="dropdown">
+              {/* <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost btn-circle">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -28,12 +28,6 @@ const Navbar = () => {
                   tabIndex={0}
                   className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                 >
-                  {/* <li>
-                    <a>Doc</a>
-                  </li>
-                  <li>
-                    <a>WhitePaper</a>
-                  </li> */}
                   <li>
                     <a
                       href="https://github.com/selendra "
@@ -44,7 +38,7 @@ const Navbar = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div className="navbar-center">
               <a className="btn btn-ghost normal-case text-xl">
@@ -53,7 +47,15 @@ const Navbar = () => {
                 </div>
               </a>
             </div>
-            <div className="navbar-end"></div>
+            <div className="navbar-end">
+              <a
+                href="https://github.com/selendra "
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img width={30} src="/images/github-svgrepo-com.svg" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
