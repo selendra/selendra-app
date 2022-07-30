@@ -12,8 +12,10 @@ const network = () => {
           Networks
         </h1>
         <p className="lg:px-0 px-10  md:text-4xl py-8 text-md w-2/3 text-gray-600">
-          Selendra Mainnet and Testnet is now lived. More interesting features of the mainchain will be added as we progress. Find out what's in store below. 
-        </p>         
+          Selendra Mainnet and Testnet is now lived. More interesting features
+          of the mainchain will be added as we progress. Find out what&apos;s in
+          store below.
+        </p>
       </center>
 
       <div className="grid md:grid-cols-2 gap-2 mt-16 px-2 lg:px-0 pb-10 place-items-stretch place-content-stretch">
@@ -51,8 +53,9 @@ const network = () => {
       </div>
       <center>
         <p className="lg:px-0 px-10  md:text-2xl py-8 text-md w-2/3 text-gray-700 text-center">
-          We are also working with students, universities, community developers to
-          share blockchain education and develop more useful use-cases for general users and the whole ecosystem.
+          We are also working with students, universities, community developers
+          to share blockchain education and develop more useful use-cases for
+          general users and the whole ecosystem.
         </p>
       </center>
     </div>
