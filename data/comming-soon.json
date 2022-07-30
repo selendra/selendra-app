@@ -2,16 +2,16 @@
   {
     "image": "/images/exchange.png",
     "name": "DEX",
-    "des": "Comming Soon"
+    "des": "Coming Soon"
   },
   {
     "image": "/images/compound.png",
     "name": "DeFi",
-    "des": "Comming Soon"
+    "des": "Coming Soon"
   },
   {
     "image": "/images/stable.png",
     "name": "Stablecoins",
-    "des": "Comming Soon"
+    "des": "Coming Soon"
   }
 ]
