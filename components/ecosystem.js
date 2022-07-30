@@ -17,7 +17,7 @@ const Ecosystem = () => {
           Ecosystem
         </h1>
         <p className="lg:px-0 px-10 md:text-2xl py-8 text-md w-2/3">
-          Community DApplications and Tools
+          <b>Applications</b> and <b>Tools</b> developed by developers from the community and partners. We look forward to welcome more useful and user-friendly applications onto Selendra Network. If you have ideas, please reach out. 
         </p>
       </center>
 

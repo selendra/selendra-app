@@ -9,7 +9,7 @@ const wallet = () => {
           Apps
         </h1>
         <p className="lg:px-0 px-10 sm:mt-6 md:text-2xl py-8 text-md w-2/3">
-          Tools for navigating Selendra Networks.
+          Digital wallets and tools to navigate Selendra growing ecosystem of services.
         </p>
       </center>
 

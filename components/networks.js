@@ -11,33 +11,11 @@ const network = () => {
         >
           Networks
         </h1>
-        <p className="lg:px-0 px-10  md:text-2xl py-8 text-md w-2/3 text-gray-600">
-          The Selendra Mainnet and Testnet is now lived. Find out more for
-          yourself below. More features, tools and useful applications are
-          undevelopment and will add here the network progresses.
-        </p>
+        <p className="lg:px-0 px-10  md:text-4xl py-8 text-md w-2/3 text-gray-600">
+          Selendra Mainnet and Testnet is now lived. More interesting features of the mainchain will be added as we progress. Find out what's in store below. 
+        </p>         
       </center>
-      {/* <div className="lg:grid lg:grid-cols-2 gap-2 px-2 lg:px-0 py-10">
-        {networks.map((res, index) => {
-          return (
-            <a key={res.index} rel="noreferrer" target="_blank" href={res.link}>
-              <div className="card  lg:w-full backdrop-blur bg-base-100  mt-5 md:mt-5 bg-opacity-70 ">
-                <figure className="px-10 pt-10">
-                  <img
-                    src={res.image}
-                    alt="Shoes"
-                    className="rounded-xl w-40"
-                  />
-                </figure>
-                <div className="card-body">
-                  <h2 className="text-2xl font-bold text-center">{res.name}</h2>
-                  <p className="text-center text-xl text-gray-500">{res.des}</p>
-                </div>
-              </div>
-            </a>
-          );
-        })}
-      </div> */}
+
       <div className="grid md:grid-cols-2 gap-2 mt-16 px-2 lg:px-0 pb-10 place-items-stretch place-content-stretch">
         {networks.map((res, index) => {
           return (
@@ -71,6 +49,12 @@ const network = () => {
           );
         })}
       </div>
+      <center>
+        <p className="lg:px-0 px-10  md:text-2xl py-8 text-md w-2/3 text-gray-700 text-center">
+          We are also working with students, universities, community developers to
+          share blockchain education and develop more useful use-cases for general users and the whole ecosystem.
+        </p>
+      </center>
     </div>
   );
 };
