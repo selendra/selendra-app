@@ -5,13 +5,21 @@ const wallet = () => {
   return (
     <div className="lg:h-[75vh] lg:flex lg:place-content-center lg:flex-col space-y-24 mt-16 sm:mt-0">
       <center>
-        <h1 className="md:mt-28 mt-16 sm:mb-0 md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 text-center">
+        <h1 className="md:mt-12 mt-18 md:mb-0  md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 text-center">
           Apps
         </h1>
-        <p className="lg:px-0 px-10 sm:mt-6 md:text-2xl py-8 text-md w-2/3">
+        <p className="lg:px-0 px-10 sm:mt-0 md:text-2xl py-8 text-md w-2/3">
           Tools for navigating Selendra Networks.
         </p>
       </center>
+      {/* <center>
+        <h1 className="md:mt-28 sm:mb-0 md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-600 py-4 text-center">
+          Apps
+        </h1>
+        <p className="lg:px-0 px-10  md:text-2xl text-md">
+          Tools for navigating Selendra Networks.
+        </p>
+      </center> */}
 
       <div className="grid xl:grid-cols-3 sm:grid-cols-2 px-2 lg:px-0 gap-2 mt-16">
         {dapps.map((res, index) => {
