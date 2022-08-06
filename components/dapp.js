@@ -15,10 +15,10 @@ const wallet = () => {
       </center> */}
       <center>
         <h1 className="md:mt-28 mt-16 sm:mb-0 md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r  from-pink-600 to-purple-700 py-4 text-center">
-          Applications
+          Apps and DApps
         </h1>
         <p className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4">
-          Digital wallets and tools to navigate Selendra growing ecosystem of services
+           Digital wallets and tools for navigating the growing ecosystem of Selendra (SEL) products and services
         </p>
       </center>
 

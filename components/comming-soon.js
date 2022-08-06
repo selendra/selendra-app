@@ -6,7 +6,7 @@ const Commingsoon = () => {
     <div className="lg:h-[75vh] lg:flex lg:place-content-center lg:flex-col space-y-24 mb-16 mt-16 sm:mt-0">
       <center>
         <h1 className="md:mt-28 mt-16 sm:mb-0 md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-green-500 to-blue-600 py-4 text-center">
-          Coming Soon!
+          Next up
         </h1>
         <p className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4">
           <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-blue-600">Stablecoins</b>,

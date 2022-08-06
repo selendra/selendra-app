@@ -3,29 +3,29 @@
     "image": "/images/bitriel-logo-v2.png",
     "name": "Bitriel Wallets",
     "link": "https://play.google.com/store/apps/details?id=com.selendra.secure_wallet&hl=en&gl=US",
-    "des": "A self-custodian multi-assets digital wallet for storing and staking assets, and decentralized exchange"
+    "des": "A self-custodian multiple-asset digital wallet used to store, stake and exchange digital assets through a decentralized blockchain network."
   },
   {
     "image": "/images/stacking.png",
     "name": "Selendra Staking",
     "link": "https://mainnet.selendra.org/#/staking/actions",
-    "des": "Developers' friendly staking UI."
+    "des": "A developers' friendly, easy to learn, blockchain development environment for early adopters to build their own applications."
   },
   {
     "image": "/images/koompi-fifi-bg.png",
     "name": "KOOMPI FiFi",
     "link": "https://www.koompi.com/projects/koompi-fi-fi",
-    "des": "School campuses and rural villages Wi-Fi Hotspot services paid in SEL token & Stablecoins"
+    "des": "Develops, deploy and maintains Wi-Fi hotspot services on school campuses and within rural villages with services paid in Selendra (SEL) token & stablecoins."
   },
   {
     "image": "/images/faucet.png",
     "name": "Tokens Faucet",
     "link": "https://faucet.selendra.org/testnet",
-    "des": "Request SEL token for development and testing purposes"
+    "des": "Request Selendra (SEL) tokens for testing and development purposes. Testnet tokens have no real-world asset value, and are used exclusively for testing and developing new applications."
   },
   {
     "image": "/images/bitriel-logo-v2.png",
     "name": "Staking on Bitriel",
-    "des": "Users' friendly staking and UI. Coming soon!"
+    "des": "A friendly User Interface (UI) experience for staking your Selendra (SEL) assets. Earn rewards and put your digital assets to work through the process of staking. Coming soon!"
   }
 ]

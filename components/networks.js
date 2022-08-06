@@ -3,7 +3,7 @@ import networks from "../data/networks.json";
 
 const network = () => {
   return (
-    <div className="lg:h-[75vh] lg:flex lg:place-content-center lg:flex-col sm:mt-12 ">
+    <div className="lg:h-[65vh] lg:flex lg:place-content-center lg:flex-col sm:mt-12 ">
       <center>
         <h1
           className="md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 text-center"
@@ -11,16 +11,12 @@ const network = () => {
         >
           Networks
         </h1>
-        <p
-          className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4 lg:w-2/3"
-          // className="lg:px-0 px-2  md:text-4xl py-8 sm:text-md text-xl md:w-2/3 text-gray-600"
-        >
-          Selendra Mainnet and Testnet is now lived. More useful and interesting features will be added as we progress. Feel free to look around!
+        <p className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4 lg:w-2/3">
+          Selendra Mainnet and Testnet are now live and growing, with many more great features to come. 
         </p>
-        {/* <p className="lg:px-0 px-10  md:text-2xl text-md">
-          Stablecoins and Decentralized Finance are also coming on <br />
-          Selendra Blockchain.
-        </p> */}
+        <p className="lg:px-0 px-2 md:text-xl md:text-md text-xl mt-4 lg:w-2/3">
+          Browse around and join our community as we push forward developing new <br /> and innovative blockchain applications designed that benefit us all.
+        </p>
       </center>
 
       <div className="grid md:grid-cols-2 gap-2 mt-16 px-2 lg:px-0 pb-10 place-items-stretch place-content-stretch">
