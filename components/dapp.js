@@ -3,7 +3,7 @@ import dapps from "../data/dapps.json";
 
 const wallet = () => {
   return (
-    <div className="lg:h-[75vh] lg:flex lg:place-content-center lg:flex-col space-y-24 mt-16 sm:mt-0 mb-9">
+    <div className=" space-y-24 mt-16 sm:mt-0 mb-9">
       {/* <center>
         <h1 className="md:mt-12 mt-18 md:mb-0  md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 text-center">
           Apps
@@ -18,7 +18,8 @@ const wallet = () => {
           Apps and DApps
         </h1>
         <p className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4">
-           Digital wallets and tools for navigating the growing ecosystem of Selendra (SEL) products and services
+          Digital wallets and tools for navigating the growing ecosystem of
+          Selendra (SEL) products and services
         </p>
       </center>
 

@@ -19,8 +19,12 @@ const Index = () => {
         >
           <Networks />
           <center>
-            <p className="lg:px-0 px-2 md:text-xl md:text-md text-xl mt-4 lg:w-2/3 mb-32">
-            The Selendra Testnet blockchain application development platform is for students, schools, universities, community networks, and independent developers. You are invited to collaborate with us as we share blockchain knowledge and development strategies through an easy to learn and use development environment.
+            <p className="lg:px-0 px-2 md:text-xl md:text-md text-xl mt-4 lg:w-2/3">
+              The Selendra Testnet blockchain application development platform
+              is for students, schools, universities, community networks, and
+              independent developers. You are invited to collaborate with us as
+              we share blockchain knowledge and development strategies through
+              an easy to learn and use development environment.
             </p>
           </center>
           <Dapp />
