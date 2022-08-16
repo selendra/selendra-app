@@ -8,11 +8,11 @@ const Ecosystem = () => {
         <h1 className="mt-16 sm:mb-0 md:text-7xl font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 py-4 text-center">
           Ecosystem DApps
         </h1>
-        <p className="lg:px-0 px-2  md:text-2xl md:text-md text-xl mt-4">
+        <p className="lg:px-0 px-2  md:text-3xl md:text-md text-xl mt-4">
           Community DApplications and Tools
         </p>
 
-        <p>
+        <p className="lg:px-0 px-2 md:text-xl md:text-md text-xl mt-10 lg:w-2/3">
           {" "}
           DApps are Decentralized Applications employing Smart Contracts. A
           Smart Contract is a self-executing digital agreement that enables two

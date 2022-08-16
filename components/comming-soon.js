@@ -9,10 +9,24 @@ const Commingsoon = () => {
           Next up
         </h1>
         <p className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4">
-          <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-blue-600">Stablecoins</b>,
-          <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600"> Decentralized Finance</b>, and 
-          <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600"> Decentralized Exchange</b> are soon coming to 
-          <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-400"> Selendra Blockchain</b>
+          <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-blue-600">
+            Stablecoins
+          </b>
+          ,
+          <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600">
+            {" "}
+            Decentralized Finance
+          </b>
+          , and
+          <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600">
+            {" "}
+            Decentralized Exchange
+          </b>{" "}
+          are soon coming to
+          <b className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-400">
+            {" "}
+            Selendra Blockchain
+          </b>
         </p>
       </center>
 

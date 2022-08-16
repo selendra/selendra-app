@@ -11,11 +11,14 @@ const network = () => {
         >
           Networks
         </h1>
-        <p className="lg:px-0 px-2 md:text-2xl md:text-md text-xl mt-4 lg:w-2/3">
-          Selendra Mainnet and Testnet are now live and growing, with many more great features to come. 
+        <p className="lg:px-0 px-2 md:text-3xl md:text-md text-xl mt-10 lg:w-2/3">
+          Selendra Mainnet and Testnet are now live and growing, with many more
+          great features to come.
         </p>
-        <p className="lg:px-0 px-2 md:text-xl md:text-md text-xl mt-4 lg:w-2/3">
-          Browse around and join our community as we push forward developing new <br /> and innovative blockchain applications designed that benefit us all.
+        <p className="lg:px-0 px-2 md:text-xl md:text-md text-xl mt-10 lg:w-2/3">
+          Browse around and join our community as we push forward developing new{" "}
+          <br /> and innovative blockchain applications designed that benefit us
+          all.
         </p>
       </center>
 
