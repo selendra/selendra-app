@@ -1,5 +1,6 @@
 import React from "react";
 import ecosystem from "../data/ecosystem.json";
+import Image from "next/image";
 
 const Ecosystem = () => {
   return (
@@ -36,7 +37,9 @@ const Ecosystem = () => {
               <div className="bg-blue-500 rounded-2xl p-0.5  pb-2 bg-gradient-to-r from-cyan-500 to-blue-500 h-full ">
                 <div className="card bg-white h-full bg-opacity-90 backdrop-blur">
                   <figure className="px-10 pt-10">
-                    <img
+                    <Image
+                      width={180}
+                      height={65}
                       src={res.image}
                       alt="Shoes"
                       className="rounded-xl h-16"
