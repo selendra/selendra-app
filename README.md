@@ -15,4 +15,4 @@ npm install
 npm run dev
 ```
 
-> You need to run npm installed, also you should go for the latest version of npm.
+> You need to have npm installed, also you should go for the latest version of npm.
