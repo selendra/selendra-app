@@ -2,7 +2,7 @@
   {
     "image": "/images/Selendralogo.png",
     "name": "Mainnet",
-    "link": "https://portal.selendra.org/?rpc=wss%3A%2F%2Frpc-mainnet.selendra.org#/explorer",
+    "link": "https://portal.selendra.org/?rpc=wss%3A%2F%2Frpc.selendra.org#/explorer",
     "des": "Deploy real-world use-case on the Main Network. Help govern the network and earn SEL token in return."
   },
   {
