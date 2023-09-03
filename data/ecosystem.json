@@ -8,7 +8,6 @@
   {
     "image": "/images/idd.png",
     "name": "Digital Identity",
-    "link": "https://id.kumandra.org",
     "des": "A cornerstone Selendra (SEL) pilot application supporting cross-chain operations, and designed to safeguard digital identity, individual asset ownership, transfers, and Non Fungible Tokens (NFTs)."
   }
 ]

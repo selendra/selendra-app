@@ -33,7 +33,7 @@ const Commingsoon = () => {
       <div className="grid xl:grid-cols-3 sm:grid-cols-2 gap-2 mt-16 px-2 lg:px-0 pb-10 place-items-stretch place-content-stretch">
         {commingsoon.map((res, index) => {
           return (
-            <a key={res.index} rel="noreferrer" target="_blank" href={res.link}>
+            <a key={index} rel="noreferrer" target="_blank" href={res.link}>
               <div className="bg-blue-500 rounded-2xl p-0.5  pb-2 bg-gradient-to-r from-cyan-500 to-blue-500 h-full">
                 <div className="card bg-white h-full bg-opacity-90 backdrop-blur">
                   <figure className="px-10 pt-10">
@@ -44,7 +44,7 @@ const Commingsoon = () => {
                     />
                   </figure>
                   <div className="card-body">
-                    <h2 className="text-2xl font-bold text-center">
+                    <h2 className="text-2xl font-bold text-center text-gray-900">
                       {res.name}
                     </h2>
                     {/* <p className="text-center text-xl text-gray-600">

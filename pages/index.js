@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/navbar";
 import Networks from "../components/networks";
 import Dapp from "../components/dapp";
@@ -13,10 +13,7 @@ const Index = () => {
       <div className="background-img"></div>
       <div className="background-img1"></div>
       <div className="glassss">
-        <div
-          // className="px-4 md:container md:mx-auto md:px-28 sm:px-6 lg:px-28"
-          className="lg:container lg:mx-auto xl:px-44 px-0 py-8"
-        >
+        <div className="lg:container lg:mx-auto xl:px-44 px-0 py-8">
           <Networks />
           <center>
             <p className="lg:px-0 px-2 md:text-xl md:text-md text-xl mt-4 lg:w-2/3">

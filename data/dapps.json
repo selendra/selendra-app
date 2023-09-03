@@ -8,19 +8,18 @@
   {
     "image": "/images/stacking.png",
     "name": "Selendra Staking",
-    "link": "https://mainnet.selendra.org/#/staking/actions",
+    "link": "https://portal.selendra.org/#/staking",
     "des": "A developers' friendly, easy to learn, blockchain development environment for early adopters to build their own applications."
   },
   {
     "image": "/images/koompi-fifi-bg.png",
     "name": "KOOMPI FiFi",
-    "link": "https://www.koompi.com/projects/koompi-fi-fi",
+    "link": "https://www.koompi.com/projects",
     "des": "Develops, deploy and maintains Wi-Fi hotspot services on school campuses and within rural villages with services paid in Selendra (SEL) token & stablecoins."
   },
   {
     "image": "/images/faucet.png",
     "name": "Tokens Faucet",
-    "link": "https://faucet.selendra.org/testnet",
     "des": "Request Selendra (SEL) tokens for testing and development purposes. Testnet tokens have no real-world asset value, and are used exclusively for testing and developing new applications."
   },
   {

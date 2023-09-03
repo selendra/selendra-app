@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   font-family: "Inter", sans-serif;
 
   /* font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;  */
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 .background-img {
   background-image: url(/images/earth.png);

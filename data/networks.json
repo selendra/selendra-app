@@ -2,13 +2,13 @@
   {
     "image": "/images/Selendralogo.png",
     "name": "Mainnet",
-    "link": "https://portal.selendra.org/?rpc=wss%3A%2F%2Frpc.selendra.org#/explorer",
+    "link": "https://portal.selendra.org/",
     "des": "Deploy real-world use-case on the Main Network. Help govern the network and earn SEL token in return."
   },
   {
     "image": "/images/testnet.png",
     "name": "Testnet",
-    "link": "https://portal.selendra.org/?rpc=wss%3A%2F%2Frpc-testnet.selendra.org#/explorer",
+    "link": "",
     "des": "Learn to develop and deploy blockchain application freely on Test Network."
   }
 ]

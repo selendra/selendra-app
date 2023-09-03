@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import dapps from "../data/dapps.json";
 
@@ -26,7 +27,7 @@ const wallet = () => {
       <div className="grid xl:grid-cols-3 sm:grid-cols-2 px-2 lg:px-0 gap-2 mt-16">
         {dapps.map((res, index) => {
           return (
-            <a key={res.index} rel="noreferrer" target="_blank" href={res.link}>
+            <a key={index} rel="noreferrer" target="_blank" href={res.link}>
               <div className="bg-blue-500 rounded-2xl bg-gradient-to-r from-cyan-400 to-blue-400 h-full ">
                 <div className="card backdrop-blur bg-white bg-opacity-80 h-full ">
                   <figure className="px-10 pt-10">
@@ -37,7 +38,7 @@ const wallet = () => {
                     />
                   </figure>
                   <div className="card-body">
-                    <h2 className="text-2xl font-bold text-center">
+                    <h2 className="text-2xl font-bold text-center text-gray-900">
                       {res.name}
                     </h2>
                     <p className="text-center text-xl text-gray-600">
