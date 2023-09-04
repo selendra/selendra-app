@@ -26,43 +26,6 @@ const network = () => {
 
       <div className="grid md:grid-cols-2 gap-2 mt-16 px-2 lg:px-0 pb-10 place-items-stretch place-content-stretch">
         {networks.map((res, index) => {
-          if (res.name === "Testnet") {
-            return (
-              <div
-                key={index}
-                className={
-                  res.name == "Testnet"
-                    ? "p-0.5  pb-2 bg-gradient-to-r rounded-2xl from-pink-500 to-purple-600 text-center h-full"
-                    : "p-0.5  pb-2 bg-gradient-to-r rounded-2xl from-cyan-500 to-blue-500 text-center h-full"
-                }
-              >
-                <div className="card bg-white h-full bg-opacity-90 backdrop-blur">
-                  <div className="card-body p-16">
-                    <figure className="px-10">
-                      <Image
-                        width={100}
-                        height={100}
-                        layout="intrinsic"
-                        src={res.image}
-                        alt="Shoes"
-                        className="rounded-x h-20"
-                      />
-                    </figure>
-                    <h2
-                      className={
-                        res.name == "Testnet"
-                          ? "font-bold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 text-center"
-                          : "font-bold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 text-center"
-                      }
-                    >
-                      {res.name}
-                    </h2>
-                    <p className="text-gray-900">Coming Soon ...</p>
-                  </div>
-                </div>
-              </div>
-            );
-          }
           return (
             <Link key={index} href={res.link} target="_blank">
               <div
