@@ -11,8 +11,8 @@ jobs:
       - name: Run SSHPASS
         run: |
           sshpass \
-            -p ${{ secret.SSH_PASS }} \
+            -p ${{ secrets.SSH_PASS }} \
               ssh \
                 -o 'StrictHostKeyChecking no' \
-                -p ${{ secret.SSH_PORT }} ${{ secret.SSH_USER }}@${{ secret.SSH_HOST }} \
+                -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
                 'cd /home/sel/selendra-app && git checkout main && git pull && npm i --force && npm run build && pm2 restart 1'
